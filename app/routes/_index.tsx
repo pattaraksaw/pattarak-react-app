@@ -43,6 +43,14 @@ export default function Index() {
           </a>
         </li>
       </ul>
+      <hr />
+      <h1 className="text-3xl">Profile</h1>
+      <ul className="list-disc mt-4 pl-6 space-y-2">
+        <li>Name: Pattarak Sawatdee</li>
+        <li>Class: IT </li>
+        <li>E-mail: <a href="mailto:pattarak.saw@rmutto.ac.th">Contact me </a></li>
+        <li><img src="https://wallpapercave.com/wp/wp2763910.gif" alt="Photo" /></li>
+      </ul>
     </div>
   );
 }

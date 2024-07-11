@@ -1,16 +1,19 @@
 import type { MetaFunction } from "@remix-run/node";
+import MyCards from "./MyCards";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
+    { title: "Pattarak Sawatdee" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
 
 export default function Index() {
   return (
+    
     <div className="font-sans p-4">
-      <h1 className="text-3xl">Welcome to Remix</h1>
+      <MyCards />
+      {/* <h1 className="text-3xl">Welcome to Remix</h1>
       <ul className="list-disc mt-4 pl-6 space-y-2">
         <li>
           <a
@@ -43,14 +46,18 @@ export default function Index() {
           </a>
         </li>
       </ul>
-      <hr />
-      <h1 className="text-3xl">Profile</h1>
+      <hr /> */}
+
+
+
+      
+      {/* <h1 className="text-3xl">Profile</h1>
       <ul className="list-disc mt-4 pl-6 space-y-2">
         <li>Name: Pattarak Sawatdee</li>
         <li>Class: IT </li>
         <li>E-mail: <a href="mailto:pattarak.saw@rmutto.ac.th">Contact me </a></li>
         <li><img src="https://wallpapercave.com/wp/wp2763910.gif" alt="Photo" /></li>
-      </ul>
+      </ul> */}
     </div>
   );
 }
